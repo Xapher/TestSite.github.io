@@ -207,11 +207,6 @@ a {
 	line-height: 40px;
 }
 
-#GallerySelct {
-	top: 0;
-	position: fixed;
-	color:  black;
-}
 
 #Gallery{
 	width: 100%;
@@ -302,6 +297,7 @@ a {
 	width: max-content;
 	font-size: 20px;
 	background: white;
+	color: black;
 	border-radius: 20px;
 }
 
