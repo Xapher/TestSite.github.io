@@ -144,7 +144,7 @@ function unhover(argument) {
 
 var image;
 var dir = "Assets/Gallery/";
-var slideImages = ["Trinkets/Bracelets 2.jpeg", "Trinkets/Solar light 2.jpeg", "Normal/Cougar.png", "Normal/Elk.png", "Unique/IMG_8421.jpeg", "Unique/IMG_8434.jpeg"];
+var slideImages = ["Trinkets/Bracelets 2THUMBNAIL.jpeg", "Trinkets/Solar light 2THUMBNAIL.jpeg", "Normal/Cougar.png", "Normal/Elk.png", "Unique/IMG_8421THUMBNAIL.jpeg", "Unique/IMG_8434THUMBNAIL.jpeg"];
 var fadeScript;
 
 function MiniSlide() {
