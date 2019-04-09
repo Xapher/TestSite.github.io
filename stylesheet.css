@@ -503,6 +503,7 @@ a {
 	font-size: 20px;
 	margin-top: 4%;
 	float: right;
+	text-shadow: -1px 0px #000000;
 	padding: 20px;	
 }
 
