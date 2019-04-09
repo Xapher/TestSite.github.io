@@ -286,9 +286,9 @@ window.onload = function() {
 };
 
 function loadImageGallery() {
-	loadWholePage("Assets/Gallery/Normal/Images.txt","normal");
-	loadWholePage("Assets/Gallery/Unique/Images.txt","unique");
-	loadWholePage("Assets/Gallery/Trinkets/Images.txt","trinket");
+	loadWholePage("Assets/Gallery/Normal/Thumbnails.txt","normal");
+	loadWholePage("Assets/Gallery/Unique/Thumbnails.txt","unique");
+	loadWholePage("Assets/Gallery/Trinkets/Thumbnails.txt","trinket");
 }
 
 var openGalleries = [0,1,2];
