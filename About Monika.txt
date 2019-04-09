@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 chalupa
 contalupa 
 lakjsdfk
 lsdfkj
 fa
+=======
+chalupa
+contalupa 
+lakjsdfk
+lsdfkj
+fa
+>>>>>>> 12d707e91e512f55cddd8ae88f87f401861bd52c
 ds

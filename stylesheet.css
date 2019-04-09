@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 	margin: 0px;
 }
@@ -363,4 +364,371 @@ a {
 	width: 33%;
 	background-color: transparent;
 	border: none;
+=======
+body {
+	margin: 0px;
+}
+
+html {
+	height: 100%;
+	font-family: verdana;
+	background:url("Background.png");
+	background-position: center;
+	background-attachment: fixed;
+	margin-left: 60px;
+}
+ 
+p.customfont {
+	font-family: "Custom Cursive";
+	text-shadow: 1px 1px 5px #534148;
+	font-size: 55px;
+}
+
+@font-face {
+	font-family: "Custom Cursive";
+	src: url("Assets/Fonts/Cosmic Love.ttf") format("truetype");
+}
+
+#ContactBody {
+	width: 80%;
+	padding: 1%;
+	border-radius: 20px;
+	text-align: center;
+	background: white;
+}
+
+#ContactBody > a > img {
+	height: 50px;
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+#MenuBar {
+	width: 100px;
+	height: 100%;
+
+	left: 0;
+	position: fixed;
+	top: 0;
+}
+#hover {
+	width: 100px;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+}
+
+#HiddenBar {
+	width: 0px;
+	overflow: hidden;
+	height: 100%;
+	left: 60px;
+	position: fixed;
+	top: 0;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+
+#MenuButton > a {
+	margin: 0px;
+	font-size: 40px;
+	border-style: none;
+	cursor: pointer;
+	text-align: center;
+	display: block;
+	color: white;
+}
+
+#HiddenMenuButton > a {
+	margin: 0px;
+	margin-left: 10px;
+	font-size: 30px;
+	border-style: none;
+	cursor: pointer;
+	padding-top: 11px;
+	color: white;
+	display: block;
+}
+
+#MenuButton {
+}
+#Logo {
+	width: 100px;
+}
+
+#BodyContainer {
+	margin-bottom: 80px;
+	min-height:100%;
+	margin-left: 45px;
+	margin-right: auto;
+}
+#SlideID {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+#SlideShow {
+	height: 80%;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+#GalleryPreview {
+	width: 40%;
+	padding: 20px;
+	border-radius: 5px;
+	background: white;
+}
+
+#GalleryPreview > a {
+	text-align: center;
+	text-decoration: none;
+	font-size: 40px;
+	font-style: oblique;
+	margin: 0;
+	padding: 0;
+}
+
+#About {
+	width: 50%;
+	font-size: 20px;
+	margin-top: 4%;
+	float: right;
+	padding: 20px;	
+}
+
+.sbContainer > button {
+	width: 20px;
+	height: 20px;
+	padding: 0;
+	text-decoration: none;
+	background: none;
+	border-style: none;
+}
+
+#MiniSlide {
+
+	width: 218px;
+	text-align: center;
+}
+
+.sbContainer {
+	border: solid black 1px;
+	margin: 5px;
+	border-radius: 10px;
+	float: left;
+	width: 20px;
+	height: 20px;
+}
+
+.blankSpace {
+	width: 60px;
+	height: 60px;
+}
+
+.color {
+	width: 100%;
+	height: 48px;
+}
+
+#MainBody {
+	display: inline-flex;
+}
+
+#menuMakeup {
+	width: 60px;
+}
+
+#Head {
+	text-align: center;
+}
+#Head > p {
+	margin: 0;
+	font-style: oblique;
+}
+
+#AboutSection {
+	text-align: center;
+}
+
+#AboutSection > h1 {
+	font-style: oblique;
+	font-size: 50px;
+}
+
+#AboutText {
+	width: 70%;
+	line-height: 40px;
+}
+
+#GallerySelct {
+	top: 0;
+	position: fixed;
+}
+
+#Gallery{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.GalleryItem {
+	max-width: 100%;
+	cursor: pointer;
+}
+
+.uniqueMarginTop {
+	margin-top: 2px;
+}
+.uniquePaddingBottom {
+	margin-bottom: 2px;
+}
+
+.inBlock {
+	display: inline-block;
+}
+
+.left {
+	float:left;
+}
+
+.CurrentSite {
+	text-shadow: 0px 0px 10px #A68290, 0px 0px 10px #A68290, 0px 0px 10px #A68290, 0px 0px 10px #A68290, 0px 0px 10px #A68290;
+}
+
+.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer {
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+	position: fixed;
+}
+
+#footer > p {
+	width: 560px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	border: solid red 1px;
+	margin-top: 0px;
+	margin-bottom: -10px;
+	background-color: white;
+}
+
+.galleryPreview {
+	width: 33%;
+}
+
+.GalleryColumn {
+}
+#largeImage {
+	height: 800px;
+}
+#gallerySelect {
+	padding: 20px;
+	width: max-content;
+	font-size: 20px;
+	background: white;
+	border-radius: 20px;
+}
+
+.checkbox {
+	width: 20px;
+	height: 20px;
+
+}
+
+#openContainer {
+	margin-top: 20px;
+	border-radius: 5px;
+	width: 80%;
+}
+
+#bigPicture {
+	top: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(.5,.5,.5,.8);
+	opacity: 0;
+	display: none;
+	margin-left: -60px;
+}
+
+#imageContainer {
+	max-width: 90%;
+	margin-top: 2%;
+	vertical-align: middle;
+}
+
+#bigPreview {
+	max-width: 45%;
+}
+
+#imageName {
+	text-decoration: underline;
+	font-style: bold;
+	font-size: 40px;
+}
+
+#description {
+	width: 50%;
+	height: 100%;
+	float:right;
+	color: white;
+	font-size: 20px;
+}
+
+#closeBig {
+	background-color: transparent;
+	border-style: none;
+	right: 0;
+	top: 0;
+	margin-right: 10px;
+	margin-top: 10px;
+	position: fixed;
+}
+
+.GalleryButton {
+	width: 33%;
+	background-color: transparent;
+	border: none;
+>>>>>>> 12d707e91e512f55cddd8ae88f87f401861bd52c
 }
