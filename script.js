@@ -229,7 +229,7 @@ function assignImages(fileResponse, gallery)
 		var ngd = document.getElementById("normalGallery");
 		var ngInner = "";
 		for (var i = 0; i < normalGallery.length - 1; i++) {
-			ngInner += "<button onclick=\"openBig(\'Assets/Gallery/Normal/" + normalGallery[i] + "\')\" class=\"GalleryButton\"><img class=\"GalleryItem\" src=\"Assets/Gallery/Normal/" + normalGallery[i] + "\"/></button>"; 
+			ngInner += "<button onclick=\"openBig(\'Assets/Gallery/Normal/" + normalGallery[i].replace("THUMBNAIL", "") + "\')\" class=\"GalleryButton\"><img class=\"GalleryItem\" src=\"Assets/Gallery/Normal/" + normalGallery[i] + "\"/></button>"; 
 		}
 		ngd.innerHTML = ngInner;
 	}
@@ -238,7 +238,7 @@ function assignImages(fileResponse, gallery)
 		var tgd = document.getElementById("trinketGallery");
 		var tgInner = "";
 		for (var i = 0; i < trinketGallery.length - 1; i++) {
-			tgInner += "<button onclick=\"openBig(\'Assets/Gallery/Trinkets/" + trinketGallery[i] + "\')\" class=\"GalleryButton\"><img class=\"GalleryItem\" src=\"Assets/Gallery/Trinkets/" + trinketGallery[i] + "\"/></button>"; 
+			tgInner += "<button onclick=\"openBig(\'Assets/Gallery/Trinkets/" + trinketGallery[i].replace("THUMBNAIL", "") + "\')\" class=\"GalleryButton\"><img class=\"GalleryItem\" src=\"Assets/Gallery/Trinkets/" + trinketGallery[i] + "\"/></button>"; 
 		}
 		tgd.innerHTML = tgInner;
 	}
@@ -247,7 +247,7 @@ function assignImages(fileResponse, gallery)
 		var ugd = document.getElementById("uniqueGallery");
 		var ugInner = "";
 		for (var i = 0; i < uniqueGallery.length - 1; i++) {
-			ugInner += "<button onclick=\"openBig(\'Assets/Gallery/Unique/" + uniqueGallery[i] + "\')\" class=\"GalleryButton\"><img class=\"GalleryItem\" src=\"Assets/Gallery/Unique/" + uniqueGallery[i] + "\"/></button>"; 
+			ugInner += "<button onclick=\"openBig(\'Assets/Gallery/Unique/" + uniqueGallery[i].replace("THUMBNAIL", "") + "\')\" class=\"GalleryButton\"><img class=\"GalleryItem\" src=\"Assets/Gallery/Unique/" + uniqueGallery[i] + "\"/></button>"; 
 		}
 		ugd.innerHTML = ugInner;
 	}
