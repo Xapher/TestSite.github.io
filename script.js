@@ -225,7 +225,7 @@ function assignImages(fileResponse, gallery)
 {
 	if(gallery.includes("normal")) {
 		console.log("Normal Gallery");
-		normalGallery = fileResponse.split('\r\n');
+		normalGallery = fileResponse.split(',');
 		var ngd = document.getElementById("normalGallery");
 		var ngInner = "";
 		for (var i = 0; i < normalGallery.length - 1; i++) {
@@ -234,7 +234,7 @@ function assignImages(fileResponse, gallery)
 		ngd.innerHTML = ngInner;
 	}
 	else if(gallery.includes("trinket")) {
-		trinketGallery = fileResponse.split('\r\n');
+		trinketGallery = fileResponse.split(',');
 		var tgd = document.getElementById("trinketGallery");
 		var tgInner = "";
 		for (var i = 0; i < trinketGallery.length - 1; i++) {
@@ -243,7 +243,7 @@ function assignImages(fileResponse, gallery)
 		tgd.innerHTML = tgInner;
 	}
 	else if(gallery.includes("unique")) {
-		uniqueGallery = fileResponse.split('\r\n');
+		uniqueGallery = fileResponse.split(',');
 		var ugd = document.getElementById("uniqueGallery");
 		var ugInner = "";
 		for (var i = 0; i < uniqueGallery.length - 1; i++) {

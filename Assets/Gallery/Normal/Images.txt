@@ -1,12 +1,1 @@
-Bear.PNG
-Bluebird.PNG
-Boxer.PNG
-Cougar.PNG
-Doggo.PNG
-Elk.PNG
-Family.PNG
-Forest.PNG
-Native.PNG
-ocean.PNG
-plate.PNG
-Pony.PNG
+Bear.PNG,Bluebird.PNG,Boxer.PNG,Cougar.PNG,Doggo.PNG,Elk.PNG,Family.PNG,Forest.PNG,Native.PNG,ocean.PNG,plate.PNG,Pony.PNG,
