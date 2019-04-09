@@ -1,9 +1,116 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-</head>
-<body>
-TEST
-</body>
+	<head>
+		<title>Monikas Corner</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>		
+	</head>
+	<body class="centered" onload="MiniSlide()">
+		<section id="hover">
+			<section class="blankSpace">
+				
+			</section>
+			<section id="hover1" class="color">
+				
+			</section>	
+			<section id="hover2" class="color">
+				
+			</section>
+			<section id="hover3" class="color">
+				
+			</section>
+		</section>
+		<section onmouseover="openMenu()" id="HiddenBar">
+			<section class="blankSpace">
+				
+			</section>
+			<section onmouseover="hover(1)" onmouseleave="unhover(1)" class="uniqueMarginTop" id="HiddenMenuButton">
+				<a href="index.html">ome</a>
+			</section>
+			<section onmouseover="hover(2)" onmouseleave="unhover(2)" id="HiddenMenuButton">
+				<a href="gallery.html">allery</a>
+			</section>
+			<section onmouseover="hover(3)" onmouseleave="unhover(3)" class="uniquePaddingBottom" id="HiddenMenuButton">
+				<a href="contact.html">ontact</a>
+			</section>
+		</section>
+		<section onmouseover="openMenu()" id="MenuBar">
+			<a href="index.html">
+				<img id="Logo" src="Assets/Logo.png">
+			</a>
+			<section onmouseover="hover(1)" onmouseleave="unhover(1)" id="MenuButton" class="CurrentSite">
+				<a href="index.html">H</a>
+			</section>
+			<section onmouseover="hover(2)" onmouseleave="unhover(2)" id="MenuButton">
+				<a href="gallery.html">G</a>
+			</section>
+			<section onmouseover="hover(3)" onmouseleave="unhover(3)" id="MenuButton">
+				<a href="contact.html">C</a>
+			</section>
+		</section>
+		
+		<section onmouseover="closeMenu()" id="BodyContainer">
+			<section id="Head">
+				<p class="centered customfont">Bringing your memories to life</p>
+			</section>
+			<section id="MainBody">
+				<section id="GalleryPreview" class="inBlock centered">
+					<a href="gallery.html" class="centered">Gallery</a>	
+					<section id="SlideShow">
+						<a href="" id="SlideID"></a>
+					</section>		
+					<section id="MiniSlide" class="inBlock centered">
+						<section id="mini0" class="sbContainer">
+							<button id="mb0" href=""></button>
+						</section>
+						<section id="mini1" class="sbContainer">
+							<button id="mb1" href=""></button>
+						</section>
+						<section id="mini2" class="sbContainer">
+							<button id="mb2" href=""></button>
+						</section>
+						<section id="mini3" class="sbContainer">
+							<button id="mb3" href=""></button>
+						</section>
+						<section id="mini4" class="sbContainer">
+							<button id="mb4" href=""></button>
+						</section>
+						<section id="mini5" class="sbContainer">
+							<button id="mb5" href=""></button>
+						</section>
+
+					</section>	
+				</section>
+				<section id="About" class="centered">
+					<p>
+						Monika has had a passion and love for painting for over 40 years, she has a passion to paint on unique surfaces to achieve a wonderful piece of art with a special look and feel. She uses surfaces like feathers, stones, cow skulls, and saw blades.
+					</p>
+					<p>
+						To request a commission, <a href="contact.html">Contact Monika</a> with details of the special animal you would like to memorialize.
+					</p>
+				</section>
+			</section>
+			<section id="AboutSection"> 
+				<h1>A Bit About Monika</h1>
+				<section id="AboutText" class="centered">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique turpis mi, eu dapibus neque blandit vitae. Nunc consequat auctor egestas. Donec interdum, enim sed iaculis maximus, lectus turpis sagittis justo, a consequat odio nulla ultricies ligula. Donec quis odio leo. Nullam suscipit, massa ac imperdiet vulputate, libero massa faucibus augue, ac facilisis erat magna vel tellus. Phasellus quis est rhoncus, blandit tortor porta, maximus massa. Nam in lacinia lectus. Cras bibendum venenatis tellus. Sed sit amet turpis efficitur, rhoncus velit id, dignissim sapien. Donec vestibulum, metus vel tempus fermentum, massa diam accumsan est, ut ullamcorper sapien tellus consectetur odio. Morbi nibh neque, pretium sed placerat in, pretium vel nibh. Duis lobortis rhoncus aliquet. In hac habitasse platea dictumst. Aliquam erat volutpat.
+
+						Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras semper ligula non risus interdum blandit. Ut in vestibulum tortor. In dignissim nunc vitae maximus faucibus. Quisque leo nibh, posuere imperdiet diam sit amet, vestibulum tempor metus. Mauris a tristique nulla, a rutrum ipsum. Vivamus blandit vulputate nulla, eget fringilla metus. Nam interdum felis orci, in eleifend ex fringilla vitae. Aenean placerat, diam sit amet mattis vulputate, est nisi tincidunt nulla, id commodo felis nunc ut tortor. Ut rutrum orci tellus, sit amet euismod leo facilisis nec. Quisque sit amet semper sem. Morbi faucibus nisl magna, id ultricies libero viverra sit amet. Donec accumsan tortor libero. Vestibulum posuere arcu ante, in ornare nisl commodo vel. Donec ac tincidunt sem. Quisque gravida fermentum nisi, ac gravida turpis laoreet at.
+
+						Integer iaculis dui id nibh malesuada, sit amet faucibus lectus pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. In sagittis nisl eu justo dictum, vitae dignissim elit mollis. Aenean id felis quis nulla pharetra lobortis vitae nec sem. Pellentesque rutrum lorem id ligula finibus, ac iaculis odio maximus. Fusce in odio vehicula, tempus tortor eu, lobortis ante. Curabitur porta maximus risus, non tempus arcu consequat non. Ut justo lectus, dignissim ut nisl ac, hendrerit iaculis nunc. Nunc volutpat, metus a dapibus gravida, risus sem pretium arcu, quis vehicula nulla risus vestibulum risus. Proin eget orci venenatis, tristique mauris eu, pellentesque augue. Integer eu nisi tempor, laoreet diam ut, aliquam libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut vitae congue est, ut sollicitudin enim. Nulla consequat eleifend ex, ac maximus tortor. Mauris pellentesque pretium nisl vel maximus.
+
+						Praesent quis enim et nulla vehicula rutrum tempor eu lectus. Suspendisse sollicitudin, lectus ut vulputate dapibus, odio justo condimentum nisl, sed aliquam justo nisi sed ex. Quisque at efficitur sem. Duis id semper nisl. Proin id ante id nisl mattis laoreet. Vivamus scelerisque sollicitudin cursus. Duis commodo lectus orci, eget gravida nunc mattis lacinia. Maecenas vitae nisi leo. Nullam placerat dignissim ante et ullamcorper. Duis vel felis non ante pretium dignissim non bibendum ipsum. Morbi eget sem ut odio ultricies rutrum.
+
+						Nam nulla leo, pulvinar a venenatis nec, cursus ut tellus. Aliquam faucibus augue eu mi auctor vehicula. Sed eu tincidunt diam. Pellentesque id arcu condimentum, fringilla lacus vestibulum, sagittis mi. Nunc nec neque diam. Nullam ut odio sed elit pretium feugiat. Praesent consequat odio a dui tristique dictum. Nullam metus sapien, eleifend sed tellus at, interdum accumsan nibh. Donec faucibus odio quis nulla accumsan tempus. Morbi aliquam blandit neque, a porta ipsum tempus ac.
+					</p>
+				</section>
+			</section>
+		</section>
+
+		<section id="footer" class="centered">
+			<p class="centered">Developed and Designed by Bryan Schreckengost 	&#9400;2018</p>
+		</section>
+	</body>
 </html>

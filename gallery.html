@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Monikas Corner</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>		
+	</head>
+	<body>
+		<section id="container" onmouseover="closeMenu()">
+			<section id="hover">
+			<section class="blankSpace">
+				
+			</section>
+			<section id="hover1" class="color">
+				
+			</section>	
+			<section id="hover2" class="color">
+				
+			</section>
+			<section id="hover3" class="color">
+				
+			</section>
+		</section>
+		<section onmouseover="openMenu()" id="HiddenBar">
+			<section class="blankSpace">
+				
+			</section>
+			<section onmouseover="hover(1)" onmouseleave="unhover(1)" class="uniqueMarginTop" id="HiddenMenuButton">
+				<a>ome</a>
+			</section>
+			<section onmouseover="hover(2)" onmouseleave="unhover(2)" id="HiddenMenuButton">
+				<a>allery</a>
+			</section>
+			<section onmouseover="hover(3)" onmouseleave="unhover(3)" class="uniquePaddingBottom" id="HiddenMenuButton">
+				<a>ontact</a>
+			</section>
+		</section>
+		<section onmouseover="openMenu()" id="MenuBar">
+			<a href="index.html">
+				<img id="Logo" src="Assets/Logo.png">
+			</a>
+			<section onmouseover="hover(1)" onmouseleave="unhover(1)" id="MenuButton">
+				<a>H</a>
+			</section>
+			<section onmouseover="hover(2)" onmouseleave="unhover(2)" id="MenuButton" class="CurrentSite">
+				<a>G</a>
+			</section>
+			<section onmouseover="hover(3)" onmouseleave="unhover(3)" id="MenuButton">
+				<a>C</a>
+			</section>
+		</section>
+		
+		<section onmouseover="closeMenu()" id="BodyContainer">
+			<section id="GalleryContainer">
+				<section id="openContainer" class="centered">
+					<section id="gallerySelect" class="centered">
+						<input class="checkbox" checked="true" type="checkbox" onchange="addGallery(0)" name="normal">Normal
+						<input class="checkbox" checked="true" type="checkbox" onchange="addGallery(1)" name="normal">Unique
+						<input class="checkbox" checked="true" type="checkbox" onchange="addGallery(2)" name="normal">Trinkets
+					</section>
+				</section>
+				<section id="Gallery" class="inlineBlock">
+					<section id="normalGallery" class="left GalleryColumn">
+						
+					</section>
+					<section id="uniqueGallery" class="left GalleryColumn">
+						
+					</section>
+					<section id="trinketGallery" class="left GalleryColumn">
+						
+					</section>
+				</section>
+			</section>
+		</section>
+
+		<section id="footer" class="centered">
+			<p class="centered">Developed and Designed by Bryan Schreckengost 	&#9400;2018</p>
+		</section>
+		</section>
+		<section id="bigPicture">
+			<section id="imageContainer" class="centered">
+				<img id="bigPreview" src="Assets/Gallery/Normal/Bear.png">
+				<section id="description" class="centered">
+					<button onclick="closeBig()" id="closeBig"><img src="x.png"></button>
+					<h1 id="imageName">Bear</h1>
+					Sagittis egestas justo augue ac, erat lorem pede in dolor, fringilla mauris, integer ullamcorper mauris adipiscing, ac etiam lorem nec tincidunt aptent. Libero nonummy enim dignissim ridiculus, pellentesque sed wisi mauris eu euismod ipsum, luctus id amet interdum consectetuer, nibh est sed vestibulum et, tempus lorem faucibus sed enim. Quis dapibus amet ornare minus volutpat imperdiet. Maecenas justo ac cras vivamus libero volutpat, lacus sociosqu, laoreet nulla sem sagittis ultrices maecenas nonummy, urna orci. Et non tincidunt, nec pede fringilla nostra, neque amet odio consectetuer.
+				</section>
+			</section>
+		</section>
+	</body>
+</html>

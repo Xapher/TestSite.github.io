@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Monikas Corner</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>		
+	</head>
+	<body class="centered" onload="MiniSlide()">
+		<section id="hover">
+			<section class="blankSpace">
+				
+			</section>
+			<section id="hover1" class="color">
+				
+			</section>	
+			<section id="hover2" class="color">
+				
+			</section>
+			<section id="hover3" class="color">
+				
+			</section>
+		</section>
+		<section onmouseover="openMenu()" id="HiddenBar">
+			<section class="blankSpace">
+				
+			</section>
+			<section onmouseover="hover(1)" onmouseleave="unhover(1)" class="uniqueMarginTop" id="HiddenMenuButton">
+				<a href="index.html">ome</a>
+			</section>
+			<section onmouseover="hover(2)" onmouseleave="unhover(2)" id="HiddenMenuButton">
+				<a href="gallery.html">allery</a>
+			</section>
+			<section onmouseover="hover(3)" onmouseleave="unhover(3)" class="uniquePaddingBottom" id="HiddenMenuButton">
+				<a href="contact.html">ontact</a>
+			</section>
+		</section>
+		<section onmouseover="openMenu()" id="MenuBar">
+			<a href="index.html">
+				<img id="Logo" src="Assets/Logo.png">
+			</a>
+			<section onmouseover="hover(1)" onmouseleave="unhover(1)" id="MenuButton" class="CurrentSite">
+				<a href="index.html">H</a>
+			</section>
+			<section onmouseover="hover(2)" onmouseleave="unhover(2)" id="MenuButton">
+				<a href="gallery.html">G</a>
+			</section>
+			<section onmouseover="hover(3)" onmouseleave="unhover(3)" id="MenuButton">
+				<a href="contact.html">C</a>
+			</section>
+		</section>
+		
+		<section onmouseover="closeMenu()" id="BodyContainer">
+			<section id="Head">
+				<p class="centered customfont">Bringing your memories to life</p>
+			</section>
+			<section id="ContactBody" class="centered">
+				<section class="centered">
+					<p>
+						To contact Monika, either select a platform to compose an email, or email her at someone@gmail.com.
+					</p>
+				</section>
+				<a href="https://mail.google.com/mail/?view=cm&fs=1&to=someone@gmail.com&su=Comission%20Request&body=test&bcc=someone.else@gmail.com"><img src="GmailLogo.png"></a>
+				<a href="https://outlook.live.com/owa/#subject=Comission%20Request&bodyBODY&to=someone@gmail.com&path=%2fmail%2faction%2fcompose"><img src="OutlookLogo.png"></a>
+				<a href="http://compose.mail.yahoo.com/?to=someone@gmail.com&subj=Comission%20Request&body=BODY"><img src="YahooLogo.png"></a>
+				<a href="mailto:someone@gmail.com"><img src="MailLogo.png"></a>
+			</section>
+			
+
+		<section id="footer" class="centered">
+			<p class="centered">Developed and Designed by Bryan Schreckengost 	&#9400;2018</p>
+		</section>
+	</body>
+</html>
