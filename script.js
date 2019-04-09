@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var menuOpen = false;
 var menu;
 var hovers;
@@ -680,5 +679,4 @@ function updateGallery() {
 
 function fadeOutBig() {
 	
->>>>>>> 12d707e91e512f55cddd8ae88f87f401861bd52c
 }
