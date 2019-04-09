@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 Bracelets 2.jpeg
 Bracelets.jpeg
 Solar light 2.jpeg
 Solar Light.jpeg
-=======
-Bracelets 2.jpeg
-Bracelets.jpeg
-Solar light 2.jpeg
-Solar Light.jpeg
->>>>>>> 12d707e91e512f55cddd8ae88f87f401861bd52c
