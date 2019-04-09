@@ -6,6 +6,7 @@ html {
 	height: 100%;
 	font-family: verdana;
 	background:url("Background.png");
+	background-color: grey;
 	background-position: center;
 	background-attachment: fixed;
 	margin-left: 60px;
