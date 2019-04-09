@@ -138,7 +138,7 @@ a {
 #About {
 	width: 50%;
 	font-size: 30px;
-	text-shadow: white;
+	text-shadow: 2px 2px #ffffff;
 	margin-top: 4%;
 	float: right;
 	padding: 20px;	
