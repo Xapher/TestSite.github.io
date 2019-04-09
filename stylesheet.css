@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
 	margin: 0px;
 }
@@ -10,6 +9,7 @@ html {
 	background-position: center;
 	background-attachment: fixed;
 	margin-left: 60px;
+	color: white;
 }
  
 p.customfont {
@@ -104,7 +104,6 @@ a {
 	min-height:100%;
 	margin-left: 45px;
 	margin-right: auto;
-	background-color: white;
 }
 #SlideID {
 	height: 100%;
@@ -138,7 +137,6 @@ a {
 #About {
 	width: 50%;
 	font-size: 30px;
-	text-shadow: 2px 2px #ffffff;
 	margin-top: 4%;
 	float: right;
 	padding: 20px;	
