@@ -286,6 +286,7 @@ window.onload = function() {
 };
 
 function loadImageGallery() {
+	alert(window.innerHeight);
 	loadWholePage("Assets/Gallery/Normal/Thumbnails.txt","normal");
 	loadWholePage("Assets/Gallery/Unique/Thumbnails.txt","unique");
 	loadWholePage("Assets/Gallery/Trinkets/Thumbnails.txt","trinket");
