@@ -1,3 +1,10 @@
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
 body {
 	margin: 0px;
 }
@@ -268,7 +275,7 @@ a {
 
 
 #footer > p {
-	color:black;
+	color: black;
 	width: 560px;
 	padding-top: 10px;
 	padding-bottom: 20px;
