@@ -136,8 +136,8 @@ a {
 #About {
 	background-color: #ffffffaa;
 	width: 50%;
+	border-radius: 20px;
 	font-size: 20px;
-	margin-top: 4%;
 	float: right;
 	padding: 20px;	
 }
