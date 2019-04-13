@@ -133,6 +133,13 @@ a {
 	padding: 0;
 }
 
+#About {
+	width: 50%;
+	font-size: 20px;
+	margin-top: 4%;
+	float: right;
+	padding: 20px;	
+}
 
 
 .sbContainer > button {
